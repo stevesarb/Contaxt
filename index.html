@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./output.css" rel="stylesheet">
+        <script src="./index.js"></script>
         <title>Contaxt</title>
     </head>
     <body>
@@ -12,7 +13,7 @@
             <h1><a class="btn btn-ghost text-4xl text-white ml-5">Contaxt</a></h1>
         </div>
 
-        <main class="flex justify-center">
+        <main class="flex justify-center blur-sm">
             <div class="flex flex-col items-center w-3/4 h-screen">
 
                 <!-- Search bar -->
@@ -129,8 +130,14 @@
 
                         <!-- Add Button -->
                         <button>
-                            <div class="w-14 hover:w-16 m-1 hover:m-0">
-                                <img src="./images/add_button.svg" alt="Add Button">
+                            <div class="dropdown dropdown-top dropdown-end">
+                                <div tabindex="0" role="button" class="w-14 hover:w-16 m-1 hover:m-0">
+                                    <img src="./images/add_button.svg" alt="Add Button">
+                                </div>
+                                <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-40 p-2 shadow">
+                                  <li><a onclick="show_add_group_modal()">Add Group</a></li>
+                                  <li><a>Add Contact</a></li>
+                                </ul>
                             </div>
                         </button>
                     </div>
@@ -138,5 +145,10 @@
                 </div>
             </div>
         </main>
+
+        <!-- Add Group Modal -->
+        <div>
+            
+        </div>
     </body>
 </html>
