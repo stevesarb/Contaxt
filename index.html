@@ -302,7 +302,7 @@
         </div>
 
         <!-- Edit Group Modal -->
-        <div id="edit_contact_modal" class="absolute top-36 left-1/4 w-1/2 h-fit rounded-xl bg-gray-200">
+        <div id="edit_group_modal" class="absolute top-36 left-1/4 w-1/2 h-fit rounded-xl bg-gray-200 hidden">
 
             <div class="blur-none">
                 <div class="flex justify-between m-5">
@@ -366,6 +366,88 @@
                     <button class="btn w-24">Delete</button>
                 </div>
             </div>
+        </div>
+
+        <!-- Contact Display Modal -->
+        <div id="contact_display_modal" class="absolute top-36 left-1/4 w-1/2 h-fit rounded-xl bg-gray-200">
+
+            <div class="flex justify-between m-5">
+                <h2 class="text-2xl">Randy Moss</h2>
+                <button class="w-8">
+                    <img src="./images/edit_icon.png" alt="edit_button">
+                </button>
+            </div>
+            
+
+            <!-- Description & Group Container -->
+            <div class="flex flex-col items-center w-full h-fit">
+
+                <!-- Description Input -->
+                <div class="w-5/6 h-fit mt-3 p-2 bg-gray-300">
+                    <p class="text-lg">Description:</p>
+                    <div class="w-full h-fit mt-1 rounded-sm bg-white">
+                        <p class="m-2">One of the best WRs ever. Drafted by the Vikings in 1998.</p>
+                    </div>
+                </div>
+
+                <!-- Parent Group Selection Input -->
+                <div class="w-5/6 h-fit mt-3 p-2 bg-gray-300">
+                    <p class="text-lg">Group:</p>
+                    <div class="w-full h-fit mt-1 rounded-sm bg-white">
+                        <p class="m-2">Gym</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Save & Cancel Buttons Container -->
+            <div class="h-fit my-5 flex justify-center gap-20">
+
+                <p>Created: 7/18/2024</p>
+
+                <p>Last Modified: 7/18/2024</p>
+            </div>
+
+        </div>
+
+        <!-- Group Display Modal -->
+        <div id="group_display_modal" class="absolute top-36 left-1/4 w-1/2 h-fit rounded-xl bg-gray-200">
+
+            <div class="flex justify-between m-5">
+                <h2 class="text-2xl">Gym</h2>
+                <button class="w-8">
+                    <img src="./images/edit_icon.png" alt="edit_button">
+                </button>
+            </div>
+            
+
+            <!-- Description & Group Container -->
+            <div class="flex flex-col items-center w-full h-fit">
+
+                <!-- Description Input -->
+                <div class="w-5/6 h-fit mt-3 p-2 bg-gray-300">
+                    <p class="text-lg">Description:</p>
+                    <div class="w-full h-fit mt-1 rounded-sm bg-white">
+                        <p class="m-2">People I meet pumping iron</p>
+                    </div>
+                </div>
+
+                <!-- Parent Group Selection Input -->
+                <div class="w-5/6 h-fit mt-3 p-2 bg-gray-300">
+                    <p class="text-lg">Parent Group:</p>
+                    <div class="w-full h-fit mt-1 rounded-sm bg-white">
+                        <p class="m-2">Home</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Save & Cancel Buttons Container -->
+            <div class="h-fit my-5 flex justify-center gap-20">
+
+                <p>Created: 7/18/2024</p>
+
+                <p>Last Modified: 7/18/2024</p>
+            </div>
+
         </div>
 
     </body>
